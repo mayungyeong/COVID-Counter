@@ -58,12 +58,6 @@ router.get("/monitor.html", function (req, res) {
         console.log("monitor page");
 });
 
-router.get("/alert.html", function (req, res) {
-        var main = fs.readFileSync('html/alert.html', 'utf8');
-        res.send(main);
-        console.log("alert page");
-});
-
 router.get("/QR.html", function (req, res) {
         var main = fs.readFileSync('html/QR.html', 'utf8');
         res.send(main);

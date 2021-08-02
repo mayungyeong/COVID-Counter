@@ -34,6 +34,18 @@ header.masthead{
     color: #3e70fa;
   }
 
+  .LAB button{
+    background-color: red; 
+    border-color: red;
+    font-size: 20px;
+    color: white;
+  }
+
+  .LAB p{
+    font-size: 20px;
+  }
+
+
   footer .member {
     font-size: 14px;
     margin-bottom: 0;
