@@ -32,7 +32,7 @@ connection.connect(function (err) {
         var phoneNumber = req.body.phoneNumber;
         var email = req.file.email;
         var password = req.file.password;
-        var auth = 'user';
+        var auth = "user";
         var sql =  'INSERT INTO login (idNum, firstName, lastName, phoneNumber, email, password, auth) values (?, ?, ?, ?, ?, ?, user)';
         var param = [idNum, firstName, lastName, phoneNumber, email, password, auth];
 
