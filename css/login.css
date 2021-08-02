@@ -1,0 +1,25 @@
+.login{
+    margin-top: 222px;
+    width:350px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.login h2{
+    text-align:center;
+}
+
+input{
+    width:100%;
+}
+
+.signup{
+    margin-top: 90px;
+    width:350px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.signup h2{
+    text-align:center;
+}
