@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,6 +10,7 @@
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
 		integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
 	<link href="../css/basic.css" rel="stylesheet" type="text/css" />
+	<link href="../css/login.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body>
@@ -29,19 +31,31 @@
 		</div>
 	</nav>
 
-	<div class="Check" style="margin-left: 30px;">
-		<h2 class="Count">
-			<br><br>
-			<strong>Lab Reservation</strong>
-		</h2>
-		<br><br><br>
-		<h3 class="LAB 1">
-			<strong>LAB 1</strong>
-		</h3>
-		<br><br><br><br><br><br><br>
-		<h3 class="LAB 2">
-			<strong>LAB 2</strong>
-		</h3>
+	<div class="reserv" style="margin-top: 90px; margin-left: 50px;">
+		<form action="/reserv" method="post" name="reserv">
+			<h2 style="color: black; text-align:left;"> Reservation </h2>
+			<p class="butt">
+				<input type="submit" class="btn btn-info" value="Reserv"
+					style="background-color: #3e70fa; border-color: #3e70fa; margin-left: 280px; width: 70px;">
+			</p>
+
+			<hr />
+			<p>
+				<label>idNum<br /></label>
+				<input type="text" class="form-control" name="idNum">
+			</p>
+			<p>
+				<label>LAB Num<br /></label>
+				<input type="text" class="form-control" name="lastName">
+			</p>
+			<p>
+				<label>Reserv Date<br /></label>
+				<input type="text" class="form-control" name="phoneNumber">
+			</p>
+			<p>
+				<label>Reserv Time<br /></label>
+				<input type="text" class="form-control" name="email">
+			</p>
 	</div>
 
 </body>

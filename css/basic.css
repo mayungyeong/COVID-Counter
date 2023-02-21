@@ -52,4 +52,8 @@ header.masthead{
     color: #3e70fa;
   }
 
+  .form-control {
+    width: 25%;
+  }
+
 
